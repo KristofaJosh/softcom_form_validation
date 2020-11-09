@@ -1,0 +1,58 @@
+.Button {
+    display: inline-block;
+    font-family: 'Roboto', sans-serif;
+
+    &__button {
+        background-color: #0097cd;
+        min-width: 156px;
+        height: 40px;
+        box-shadow: 0 1px 2px rgb(0 0 0 / 30%), inset 0 1px 1px rgb(255 255 255 / 30%);
+        border: none;
+        border-radius: 3.72rem;
+        padding: 5px 20px;
+        cursor: pointer;
+        color: white;
+
+        &--inner {
+            display: flex;
+            align-items: center;
+            justify-content: space-between;
+            &-text {
+                text-transform: capitalize;
+                font-size: 1rem;
+            }
+        }
+    }
+}
+$size: 10px;
+
+.loader {
+    width: $size;
+    height: $size;
+    border-radius: 50%;
+    background-color: white;
+    animation: loader 2s ease-in infinite;
+}
+
+@keyframes loader {
+    0% {
+        opacity: 0.3;
+        transform: scale(1);
+    }
+    25% {
+        opacity: 0.5;
+        transform: scale(1.2);
+    }
+    50% {
+        opacity: 1;
+        transform: scale(1.5);
+    }
+    75% {
+        opacity: 0.5;
+        transform: scale(1.2);
+    }
+    100% {
+        opacity: 0;
+        transform: scale(1);
+    }
+}

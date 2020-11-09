@@ -1,0 +1,12 @@
+.Navbar {
+  display: flex;
+  height: 100px;
+  background: white;
+}
+.Navbar .container {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+}
+
+/*# sourceMappingURL=navbar.style.css.map */

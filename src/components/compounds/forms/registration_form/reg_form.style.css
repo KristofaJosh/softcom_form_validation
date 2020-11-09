@@ -1,0 +1,23 @@
+.password-section {
+  display: grid;
+  grid-template-columns: 1fr 1fr;
+  grid-gap: 10px;
+}
+@media screen and (max-width: 900px) {
+  .password-section {
+    grid-template-columns: 1fr;
+  }
+}
+
+.card-section {
+  display: grid;
+  grid-template-columns: 3fr 2fr 1fr;
+  grid-gap: 10px;
+}
+@media screen and (max-width: 900px) {
+  .card-section {
+    grid-template-columns: 1fr;
+  }
+}
+
+/*# sourceMappingURL=reg_form.style.css.map */

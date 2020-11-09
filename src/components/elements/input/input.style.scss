@@ -1,0 +1,39 @@
+.Input {
+    margin-bottom: 15px;
+    font-family: 'Roboto', sans-serif;
+    position: relative;
+
+    &__input {
+
+        &_input {
+            padding: 2px 30px 2px 10px;
+            height: 30px;
+            border: 1px solid grey;
+            border-radius: 4px;
+            width: 100%;
+            position: relative;
+        }
+
+        &--password-reveal {
+            position: relative;
+            &-icon {
+                position: absolute;
+                top: 2px;
+                right: 11px;
+                cursor: pointer;
+                width: 16px;
+            }
+        }
+    }
+
+    &__label {
+        font-size: 14px;
+        text-transform: capitalize;
+        margin-bottom: 10px;
+    }
+
+    &__error {
+        color: red;
+        margin-top: 5px;
+    }
+}
